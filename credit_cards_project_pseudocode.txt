@@ -5,8 +5,8 @@
  *   Author    	: He Hongyu (Ray)
  *   Date       : 2018-10-07
  *   Description:The 1st version of pseudo code for group2 project
- *   Email		: hongyu.he@hotmail.com
- *	 GitHub		: https://github.com/HongyuHe
+ *   Email	: hongyu.he@hotmail.com
+ *   GitHub	: https://github.com/HongyuHe
  ================================================================*/
 
 ————————————————————————————————————————————————————————————
@@ -16,7 +16,7 @@ Input:  card_number: a sequence of cedit card numbers
 Output: validity: if the credit card number is valid
 		card_typy: the type of the credit card if its valid
 
-len <- length(card_number) - 1
+len <- length(card_number)
 while len < 13 or len > 16
 	do validity <- invalidate
 	   ask user to input card number again
