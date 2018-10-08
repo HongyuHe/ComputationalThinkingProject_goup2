@@ -42,7 +42,7 @@ Output: if it's a valid credit card number
 		if digit > 9 then
 		 	digit <- digit / 10 + digit mod 10
 		sum <- sum + digit
-
+	sum += card_number[len - 1]
 	return (sum mod 10) = 0
 ------------------------------------------------------------
 card_typy Function CheckCardType (card_number)
