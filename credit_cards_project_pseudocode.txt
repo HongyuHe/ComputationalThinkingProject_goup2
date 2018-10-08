@@ -29,7 +29,7 @@ else
 	validity <- invalidate
 
 ------------------------------------------------------------
-bool Function LunnCheck (card_number)
+bool Function LuhnCheck (card_number)
 Input:  card_number
 Output: if it's a valid credit card number
 
