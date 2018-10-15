@@ -1,13 +1,13 @@
-/*================================================================
+//*================================================================
  *   Copyright (C) 2018 He Hongyu(Ray). All rights reserved.
  *
  *   FileName   : union_find_naive.cpp
  *   Author    	: He Hongyu (Ray)
  *   Date       : 2018-10-07
- *   Description:The 1st version of pseudo code for group2 project
+ *   Description: The 1st version of pseudo code for group2 project
  *   Email	: hongyu.he@hotmail.com
  *   GitHub	: https://github.com/HongyuHe
- ================================================================*/
+ ================================================================*//
 
 ————————————————————————————————————————————————————————————
 PROGRAM Check Credit Card
@@ -17,7 +17,7 @@ Output: validity: if the credit card number is valid
 		card_typy: the type of the credit card if its valid
 
 len <- length(card_number)
-while len < 13 or len > 16
+while len <= 13 or len >= 16
 	do validity <- invalidate
 	   ask user to input card number again
 end while
@@ -44,6 +44,7 @@ Output: if it's a valid credit card number
 		sum <- sum + digit
 	sum += card_number[len - 1]
 	return (sum mod 10) = 0
+
 ------------------------------------------------------------
 card_typy Function CheckCardType (card_number)
 Input:  card_number
