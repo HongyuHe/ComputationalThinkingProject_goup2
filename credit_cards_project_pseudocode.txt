@@ -17,7 +17,7 @@ Output: validity: if the credit card number is valid
 		card_typy: the type of the credit card if its valid
 
 len <- length(card_number)
-while len <= 13 or len >= 16
+while len < 13 or len > 16
 	do validity <- invalidate
 	   ask user to input card number again
 end while
